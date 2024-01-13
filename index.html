@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>To-Do List</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Salsa&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/main.css" />
+		<script defer src="./js/main.js"></script>
+	</head>
+	<body>
+		<h1>TO DO LIST</h1>
+		<section>
+			<form class="input" id="add">
+				<input
+					class="add"
+					name="additem"
+					id="iteminput"
+					placeholder="add items.."
+				/>
+				<button class="button" type="submit">Add</button>
+			</form>
+			<ol style="list-style: none" class="list" id="list">
+				<!-- <li class="display">
+					<form >
+						<input type="text" class="editinput" />
+					</form>
+					<div class="sidebuttons">
+						<button class="delete">Delete</button>
+						<button class="edit">Edit</button>
+					</div>
+				</li> -->
+			</ol>
+		</section>
+	</body>
+</html>

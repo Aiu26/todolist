@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 2rem;
+	min-height: 100vh;
+	background-color: cornsilk;
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	font-family: 'Salsa', cursive;
+	text-align: center;
+	font-weight: 300;
+}
+
+section {
+	margin: 2rem;
+	background-color: #e5ffff;
+	border: 1.5px solid #333;
+}
+
+.input {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 0.5rem;
+	gap: 2.5px;
+	padding: 1rem 20rem;
+}
+.add {
+	flex: 1;
+	height: 2rem;
+	padding-left: 1rem;
+}
+
+.button {
+	background-color: #e1ecf4;
+	border-radius: 3px;
+	border: 1px solid #7aa7c7;
+	box-shadow: rgba(255, 255, 255, 0.7) 0 1px 0 0 inset;
+	color: #39739d;
+	font-size: 13px;
+	font-weight: 400;
+	padding: 8px 0.8em;
+	text-align: center;
+}
+
+.button:hover,
+.button:focus {
+	background-color: #b3d3ea;
+	color: #2c5777;
+}
+
+.button:focus {
+	box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
+}
+
+.button:active {
+	background-color: #a0c7e4;
+	color: #2c5777;
+}
+
+.list {
+	text-align: center;
+	padding-top: 1rem;
+}
+
+.display {
+	display: flex;
+	justify-content: space-between;
+	padding: 16px;
+	border: #333333b2 solid 0.5px;
+	background-color: #101b2456;
+	border-radius: 10px;
+	color: rgb(236, 236, 223);
+	gap: 5px;
+}
+.delete,
+.edit {
+	background-color: #e1ecf4;
+	border-radius: 3px;
+	border: 1px solid #283d4c;
+	box-shadow: rgba(244, 238, 238, 0.7) 0 1px 0 0 inset;
+	color: #1a1b1b;
+	font-size: 13px;
+	font-weight: 400;
+	padding: 8px 0.8em;
+	text-align: center;
+}
+.delete:hover,
+.edit:hover,
+.delete:focus {
+	background-color: #8d919388;
+	color: #172937;
+}
+
+.delete:focus,
+.edit:focus {
+	box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
+}
+
+.delete:active,
+.edit:active {
+	background-color: #a0c7e4;
+	color: #2c5777;
+}
+
+.sidebuttons {
+	display: flex;
+	gap: 10px;
+}
+
+.display > form {
+	flex: 1;
+}
+.task {
+	color: cornsilk;
+	font-family: 'Salsa', cursive;
+	font-weight: 300;
+	font-size: 2rem;
+}
+
+.editinput {
+	background-color: #101b2430;
+	height: 2.5rem;
+	width: 100%;
+	border: #172937;
+	outline: #333;
+	color: cornsilk;
+	font-family: 'Salsa', cursive;
+	font-weight: 300;
+	font-size: 2rem;
+	caret-color: white;
+}
